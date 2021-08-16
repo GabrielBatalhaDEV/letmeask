@@ -1,0 +1,119 @@
+.question {
+  background: #fefefe;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  padding: 24px;
+
+  & + .question {
+    margin-top: 8px;
+  }
+
+  &.answered {
+    background: #dbdcdd;
+
+    .answer-button {
+      svg {
+        fill: #7cb518;
+      }
+    }
+  }
+
+  &.highlighted {
+    background: #f4f0ff;
+    border: 1px solid #3f37c9;
+    .check-button {
+      svg {
+        fill: #3f37c9;
+      }
+    }
+
+    footer .user-info span {
+      color: #29292e;
+    }
+  }
+
+  p {
+    color: #2929e2;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+
+    .user-info {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+      }
+
+      span {
+        margin-left: 8px;
+        color: #737380;
+        font-size: 14px;
+      }
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+
+      button {
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+
+        min-height: 24px;
+        min-width: 24px;
+
+        :not(&.answer-button) &.check-button {
+          &:hover {
+            svg {
+              fill: #3f37c9;
+            }
+          }
+        }
+
+        &.answer-button {
+          &:hover {
+            svg {
+              fill: #7cb518;
+            }
+          }
+        }
+
+        &.delete-button {
+          &:hover {
+            svg {
+              fill: #fb6107;
+            }
+          }
+        }
+
+        &.like-button {
+          display: flex;
+          align-items: flex-end;
+          color: #737380;
+          gap: 5px;
+          transition: filter 0.2s;
+
+          &:hover {
+            filter: brightness(0.5);
+          }
+
+          &.liked {
+            color: #835afd;
+
+            svg {
+              fill: #835afd;
+            }
+          }
+        }
+      }
+    }
+  }
+}
