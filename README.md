@@ -1,46 +1,99 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=250px height=130px src="https://i.imgur.com/gWLpbPQ.jpg" alt="Project logo"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<br/>
+<div align="center">
 
-In the project directory, you can run:
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-### `yarn start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+</br>
+<h1 align="center"><strong>LetMeAsk</strong></h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+Tabela de conteúdos
+=================
+<!--ts-->
+* [Sobre](#Sobre)
+  * [Funcionalidades](#Funcionalidades)
+    * [Features](#Features)
+    * [Paginas](#Paginas)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<!--ts-->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h1 id="Sobre" style="text-align: center;"><strong> Sobre</strong></h1>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="justify" >Uma Aplicação web SPA com as funcionalidades de criar salas e fazer perguntas.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+<h2 align="center" id="Funcionalidades" ><strong>Funcionalidades</strong><h2>
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2 id="Features">Features</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [x] Autenticação com conta google
+- [x] Cadastro de Salas
+- [x] Cadastro de Perguntas
+- [x] Deletar Perguntas
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<h2 id="Paginas">Paginas</h2>
+</br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**HOME**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="justify">
+  Nesta pagina o usuário terá a opção de efetuar o login com a conta do google, e criar uma nova sala ou entrar em uma sala já existente.
+</p>
+
+<img src="https://i.imgur.com/LVOr9OK.png" alt="Home">
+<img src="https://i.imgur.com/RBCHSRp.png"
+alt="New-Room">
+
+</br>
+</br>
+<hr>
+
+**ROOM ADMIN**
+<p align="justify">
+  Está pagina so e disponivel ao administrador da sala, ele poderá ver, destacar, marcar como respondida e excluir.
+
+  Assim como poderá encerrar a sala.
+</p>
+
+<img src="https://i.imgur.com/NflvgrO.png"
+alt="Room Admin">
+
+**pegunta destacada**
+
+<img src="https://i.imgur.com/ue0Czdh.png" alt="question highlighted">
+
+**pegunta respondida**
+
+<img src="https://i.imgur.com/vjQj1Bc.png" alt="question answered">
+
+
+</br>
+</br>
+<hr>
+
+**ROOM USER**
+
+<p align="justify">
+  Está pagina estará desponivel a qualquer pessoa que entrar com o codigo da sala, Ela poderá fazer perguntas, e marcar curtir perguntas.
+</p>
+
+<img src="https://i.imgur.com/Z8HIndQ.png" alt="Room User">
+
+**pergunta curtida**
+
+<img src="https://i.imgur.com/6BUKuUr.png" alt="question liked">
+
