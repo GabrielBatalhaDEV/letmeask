@@ -1,6 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img style="object-fit: fill;" width=200px height=200px src="https://i.imgur.com/gWLpbPQ.jpg" alt="Project logo"></a>
+ <img width="200px" height="200px" src="https://i.imgur.com/gWLpbPQ.jpg" alt="Project logo"></a>
 </p>
 
 
