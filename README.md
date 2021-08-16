@@ -1,5 +1,4 @@
 <p align="center">
-  <a href="" rel="noopener">
  <img src="https://i.imgur.com/gWLpbPQ.jpg" alt="Project logo"></a>
 </p>
 
